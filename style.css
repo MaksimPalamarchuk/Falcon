@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+    /* background: #000000; */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    height: 17px;
+    /* background: #000000; */
+}
+
+
+
+
+/* глобальні стилі підсекцій */
+.section-part {}
+
+.section-title {
+    height: 68px;
+    width: 177px;
+    margin-bottom: 45px;
+    margin: 218px 0 45px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+
+}
+
+/* підсекція overview*/
+
+.overview-text {
+    display: flex;
+    width: 603px;
+
+}
+
+.falcon-parameters {
+    width: 50%;
+    list-style: none;
+}
+
+.falcon-parameters-item {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+
+}
+
+.falcon-parameters-item span {
+    color: RGB(178, 176, 178);
+}
+
+.left-col {}
+
+.right-col {}
+
+/* підсекція perfomance */
+
+.section-article {
+    width: 490px;
+    height: 145px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.nav-link snap {
+    color: #808080;
+}
+
+.main-section snap {
+    color: #808080;
+}
+
+/* секція falcon */
+.falcon {
+    display: flex;
+    height: 1718px;
+
+}
+
+.group {
+    padding: 340px 0 0 149px;
+    background: #000000;
+}
+
+
+
+.main {
+    height: 1250px;
+
+    /* background: #000000; */
+}
+
+.main-title {
+    font-size: 64px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 382;
+    height: 75;
+    top: 190px;
+    left: 529px;
+    /* background: #000000; */
+    color: white;
+}
+
+.main-section {
+    width: 177;
+    height: 68px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    background: #000000;
+    margin: 0 auto;
+    
+
+}
+
+.parameters-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.email snap {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.contact-us {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.contact {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 260px;
+    background: #000;
+    color:white;
+    border-radius: 6px 2px;
+
+}
