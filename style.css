@@ -10,7 +10,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none;
+    /* user-select: none; */
 }
 
 body {
@@ -19,8 +19,21 @@ body {
     background: #000;
 }
 
+.ukButton{
+    margin-top: -48px;
+}
+
+.ukButton img{
+    width: 80px;
+    height: 50px;
+}
+
+.EnButton img{
+    width: 80px;
+    height: 50px;
+}
+
 .container {
-    background: rgb(0, 0, 0);
     width: 1440px;
     margin: 0 auto;
 }
@@ -85,6 +98,15 @@ body {
 }
 
 
+.line{
+    margin: 0 auto;
+}
+
+
+.article-title{
+    margin: 0 auto;
+}
+
 /* підсекція perfomance */
 
 .section-article {
@@ -93,15 +115,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 180%;
-}
-
-
-
-
-
-
-
-
+}   
 
 .nav {
     display: flex;
@@ -138,7 +152,6 @@ body {
 
 .group {
     padding: 340px 0 0 149px;
-    background: #000000;
 }
 
 
@@ -185,7 +198,6 @@ body {
 }
 
 .footer {
-    background: #000000;
     margin: 0 auto;
 
 
@@ -350,7 +362,6 @@ body {
 
     .group {
         padding: 340px 0 0 149px;
-        background: #000000;
     }
 
 
@@ -397,7 +408,6 @@ body {
     }
 
     .footer {
-        background: #000000;
         margin: 0 auto;
 
 
@@ -431,7 +441,6 @@ body {
         margin: 0 auto;
         height: 60px;
         width: 260px;
-        background: #000;
         color: white;
         border-radius: 6px 2px;
     }
@@ -554,7 +563,6 @@ body {
 
     .group {
         padding: 340px 0 0 149px;
-        background: #000000;
     }
 
 
@@ -612,7 +620,6 @@ body {
     }
 
     .footer {
-        background: #000000;
         margin: 0 auto;
 
 
@@ -646,7 +653,6 @@ body {
         margin: 0 auto;
         height: 60px;
         width: 260px;
-        background: #000;
         color: white;
         border-radius: 6px 2px;
     }
