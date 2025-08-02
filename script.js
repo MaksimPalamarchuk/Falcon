@@ -14,10 +14,9 @@ let enTexts = [
     'Twitter','Youtube','Instagram','Flickr','LinkedIn','Privacy','Policy','For additional questions, contact rideshare@spacex.com',
 ]
 
-
+    let targets = document.querySelectorAll(".target")
 
 function translateToUk() {
-    let targets = document.querySelectorAll(".target")
     console.log(targets)
     for (let i = 0; i < targets.length; i++) {
         targets[i].textContent = ukTexts[i]
@@ -27,7 +26,6 @@ function translateToUk() {
 
 
 function translateToEn() {
-    let targets = document.querySelectorAll(".target")
     console.log(targets)
     for (let i = 0; i < targets.length; i++) {
         targets[i].textContent = enTexts[i]

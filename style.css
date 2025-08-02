@@ -17,20 +17,33 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     background: #000;
+    position: relative;
 }
 
-.ukButton{
-    margin-top: -48px;
+
+.buttons-translate {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    height: 40px;
+    background: #000;
 }
 
-.ukButton img{
-    width: 80px;
-    height: 50px;
+.ukbutton img {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background: #000;
 }
 
-.EnButton img{
-    width: 80px;
-    height: 50px;
+.Enbutton img {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background: #000;
 }
 
 .container {
@@ -82,7 +95,7 @@ body {
 
 .falcon-parameters {
     width: 50%;
-    
+
 }
 
 .falcon-parameters-item {
@@ -98,12 +111,12 @@ body {
 }
 
 
-.line{
+.line {
     margin: 0 auto;
 }
 
 
-.article-title{
+.article-title {
     margin: 0 auto;
 }
 
@@ -115,7 +128,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 180%;
-}   
+}
 
 .nav {
     display: flex;
@@ -135,11 +148,11 @@ body {
 
 }
 
-.nav-link snap {
+.nav-link span {
     color: #808080;
 }
 
-.main-section snap {
+.main-section span {
     color: #808080;
 }
 
@@ -236,7 +249,7 @@ body {
     border-radius: 6px 2px;
 }
 
-.ukButton{
+.ukButton {
     position: absolute;
     width: 5px;
     height: 5px;
