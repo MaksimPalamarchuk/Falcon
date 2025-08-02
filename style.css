@@ -45,7 +45,6 @@ body {
 
 
 /* глобальні стилі підсекцій */
-.section-part {}
 
 .section-title {
     height: 68px;
@@ -85,9 +84,6 @@ body {
     color: RGB(178, 176, 178);
 }
 
-.left-col {}
-
-.right-col {}
 
 /* підсекція perfomance */
 
@@ -228,7 +224,13 @@ body {
     border-radius: 6px 2px;
 }
 
-
+.ukButton{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 100px;
+    left: 1350px;
+}
 
 @media screen and (max-width: 1439px) {
     .container {
@@ -256,7 +258,6 @@ body {
 
 
     /* глобальні стилі підсекцій */
-    .section-part {}
 
     .section-title {
         height: 68px;
@@ -295,10 +296,6 @@ body {
     .falcon-parameters-item span {
         color: RGB(178, 176, 178);
     }
-
-    .left-col {}
-
-    .right-col {}
 
     /* підсекція perfomance */
 
@@ -463,7 +460,7 @@ body {
 
 
     /* глобальні стилі підсекцій */
-    .section-part {}
+
 
     .section-title {
         height: 68px;
@@ -503,9 +500,6 @@ body {
         color: RGB(178, 176, 178);
     }
 
-    .left-col {}
-
-    .right-col {}
 
     /* підсекція perfomance */
 
