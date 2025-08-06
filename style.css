@@ -259,7 +259,7 @@ body {
 
 @media screen and (max-width: 1439px) {
     .container {
-        width: 768px;
+        width: 800px;
     }
 
     .header {
@@ -273,7 +273,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 1230px;
+        width: 800px;
         height: 17px;
         /* background: #000000; */
     }
@@ -294,6 +294,21 @@ body {
         line-height: 140%;
         text-transform: uppercase;
 
+    }
+
+    .earth{
+        position: relative;
+        left: -330px;
+    }
+
+
+
+    .rocket{
+        position: relative;
+        width: 500px;
+        height: 1000px;
+        left: -500px;
+        top: 400px;
     }
 
     /* підсекція overview*/
@@ -476,6 +491,9 @@ body {
         gap: 50px;
     }
 
+
+    .earth img{
+    }
 
 
 
