@@ -297,18 +297,16 @@ body {
     }
 
     .earth{
-        position: relative;
-        left: -330px;
+        margin-left: -330px;
     }
 
 
 
     .rocket{
-        position: relative;
         width: 500px;
         height: 1000px;
-        left: -300px;
-        top: 400px;
+        margin-left: -300px;
+        margin-top: 300px;
     }
 
     /* підсекція overview*/
