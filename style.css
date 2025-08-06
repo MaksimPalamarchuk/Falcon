@@ -473,7 +473,7 @@ body {
 
 @media screen and (max-width: 767px) {
     .container {
-        width: 360px;
+        width: 412px;
     }
 
     .header {
@@ -490,7 +490,10 @@ body {
     }
 
 
-    .earth img{
+    .earth{
+        position: relative;
+        height: 500px;
+        left: 160px;
     }
 
 
@@ -499,6 +502,7 @@ body {
 
 
     .section-title {
+        position: relative;
         height: 68px;
         width: 177px;
         margin-bottom: 45px;
@@ -508,15 +512,16 @@ body {
         font-size: 24px;
         line-height: 140%;
         text-transform: uppercase;
-
+        right: 150px;
     }
 
     /* підсекція overview*/
 
     .overview-text {
+        position: relative;
         display: flex;
-        width: 603px;
-
+        width: 412px;
+        right: 150px;
     }
 
     .falcon-parameters {
@@ -540,19 +545,28 @@ body {
     /* підсекція perfomance */
 
     .section-article {
-        width: 490px;
+        position: relative;
+        width: 412px;
         height: 145px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 10px;
         line-height: 180%;
+        right: 150px;
     }
 
 
 
 
+    .article-title{
+        position: relative;
+        right: 150px;
+    }
 
-
-
+    .rocket{
+        position: relative;
+        height: 1000px;
+        right: 160px;
+    }
 
 
     .nav {
