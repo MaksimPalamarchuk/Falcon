@@ -31,3 +31,13 @@ function translateToEn() {
         targets[i].textContent = enTexts[i]
     }
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    let loader = document.querySelector(".banter-loader");
+    let container = document.querySelector(".container");
+    setTimeout(() => {
+        loader.style.display = "none";
+        container.style.display = "block"
+    }, 2000)
+});
