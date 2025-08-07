@@ -651,7 +651,7 @@ body {
 }
 
 .number,
-.line {
+.line-clock {
     display: flex;
     justify-content: center;
     width: 250px;
@@ -663,7 +663,7 @@ body {
     text-shadow: 1px 1px 3px black;
 }
 
-.line {
+.line-clock {
     line-height: 30px;
     text-shadow: none;
 }
@@ -1300,6 +1300,7 @@ body {
         border-width: 1px;
         margin: 6px 719px;
         align-items: center;
+
     }
 
     .main-section {
